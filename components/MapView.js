@@ -179,7 +179,7 @@ const MapView = ({ data = {}, error, theme }) => {
             <Logo>
               <img className="logo" src={require(`../public/logo.svg`)} />
               <div>
-                <h1>nz.pandemic2020.in</h1>
+                <h1>nz pandemic2020</h1>
                 <h2>Current Cases in New Zealand</h2>
               </div>
             </Logo>
