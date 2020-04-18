@@ -179,7 +179,7 @@ const MapView = ({ data = {}, error, theme }) => {
             <Logo>
               <img className="logo" src={require(`../public/logo.svg`)} />
               <div>
-                <h1>Covid19map.nz</h1>
+                <h1>nz.pandemic2020.in</h1>
                 <h2>Current Cases in New Zealand</h2>
               </div>
             </Logo>
@@ -221,7 +221,7 @@ const MapView = ({ data = {}, error, theme }) => {
                 <Share>
                   <small>Follow us</small>
                   <a
-                    href="https://www.facebook.com/covid19mapnz"
+                    href="https://www.facebook.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={() => gtag.event("Follow", "", "Facebook")}
@@ -229,7 +229,7 @@ const MapView = ({ data = {}, error, theme }) => {
                     <img src={require(`../public/Facebook.svg`)} /> Facebook
                   </a>
                   <a
-                    href="https://www.instagram.com/covid19mapnz/"
+                    href="https://www.instagram.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={() => gtag.event("Follow", "", "Instagram")}
