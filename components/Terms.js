@@ -22,21 +22,13 @@ const Terms = ({ termsOpened, setTermsOpened }) => {
         <small>
           Any feedback, ideas, or if you'd like to help, please contact{" "}
           <a
-            href="mailto:contact@covid19map.nz"
+            href="mailto:gourab@creticweb.tech"
             onClick={() => gtag.event("Email")}
           >
-            contact@covid19map.nz
+            gourab@creticweb.tech
           </a>{" "}
-          |{" "}
-          <a
-            href="https://github.com/dixoncheng/covid19map"
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={() => gtag.event("Github")}
-          >
-            Github
-          </a>
-          <br />
+  
+          
           <LinkButton
             type="button"
             onClick={() => {
@@ -52,7 +44,7 @@ const Terms = ({ termsOpened, setTermsOpened }) => {
         <div>
           <p>
             <small>
-              Covid-19 Map NZ sources its cases directly from the official{" "}
+              Covid19 Map NZ sources its cases directly from the official{" "}
               <a
                 href="https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus/covid-19-current-cases"
                 target="_blank"
@@ -66,7 +58,7 @@ const Terms = ({ termsOpened, setTermsOpened }) => {
           </p>
           <p>
             <small>
-              Covid-19 Map NZ disclaims and excludes all liability for any
+              Covid19 Map NZ disclaims and excludes all liability for any
               claim, loss, demand or damages of any kind whatsoever (including
               for negligence) arising out of or in connection with the use of
               either this website or the information, content or materials
@@ -82,9 +74,9 @@ const Terms = ({ termsOpened, setTermsOpened }) => {
         </div>
       )}
       <p className="made-by">
-        <small>Made by</small>{" "}
+        <small>Made by ♥️ Gourab</small>{" "}
         <a
-          href="https://www.linkedin.com/in/emilywongnz/"
+          href="https://www.linkedin.com"
           target="_blank"
           rel="noopener noreferrer"
           onClick={() => gtag.event("LinkedIn", "", "Emily")}
@@ -92,7 +84,7 @@ const Terms = ({ termsOpened, setTermsOpened }) => {
           <img src={require(`../public/linkedin.svg`)} />
         </a>{" "}
         <a
-          href="https://www.linkedin.com/in/dixon-cheng/"
+          href="https://www.linkedin.com/in/"
           target="_blank"
           rel="noopener noreferrer"
           onClick={() => gtag.event("LinkedIn", "", "Dixon")}
