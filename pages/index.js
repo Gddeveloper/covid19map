@@ -12,7 +12,7 @@ const Home = () => {
     <div className="container">
       <Head>
         <title>
-          Covid-19 Map New Zealand - A visual look at the current Covid-19 cases
+          Covid New Zealand - A visual look at the current Covid-19 cases
           in New Zealand
         </title>
       </Head>
